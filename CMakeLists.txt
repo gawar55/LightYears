@@ -11,6 +11,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS       OFF)
 
 #set a variable
-set(LIGHT_YEARS_TARGET_NAME LightYearsGame)
+set(LIGHT_YEARS_GAME_TARGET_NAME LightYearsGame)
+set(LIGHT_YEARS_ENGINE_TARGET_NAME LightYearsEngine)
 
-add_subdirectory(LightYears)
+add_subdirectory(LightYearsEngine)
+add_subdirectory(LightYearsGame)
+    
+    
